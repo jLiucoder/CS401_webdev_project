@@ -7,7 +7,7 @@
 
     if (isset($_SESSION['authenticated'])) {
         if($_SESSION['authenticated']) {
-          header('Location: home.php');
+          header('Location: index.html');
             exit;  
         } 
     }

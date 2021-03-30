@@ -7,7 +7,7 @@ session_start();
 //redirect if authenticated
 if (isset($_SESSION['authenticated'])) {
     if ($_SESSION['authenticated']) {
-        header('Location: home.php');
+        header('Location: index.html');
         exit;
     }
 } 
