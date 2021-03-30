@@ -11,10 +11,6 @@ class Dao
     private $user = "b3798ab574b3fe";
     private $password = "0aecfb19";
 
-    // private $host = "localhost";
-    // private $db = "jerry";
-    // private $user = "root";
-    // private $password = "ljy2000727";
 
     protected $logger;
 
@@ -79,6 +75,7 @@ class Dao
       exit;
     }
   }
+
 
 
   public function insertUser ($username, $email, $password) {

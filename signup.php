@@ -7,10 +7,10 @@ session_start();
 //redirect if authenticated
 if (isset($_SESSION['authenticated'])) {
     if ($_SESSION['authenticated']) {
-        header('Location: index.html');
+        header('Location: index.php');
         exit;
     }
-} 
+}
 
 //grab errors object
 if (isset($_SESSION['errors'])) {

@@ -12,17 +12,17 @@
         <link rel="icon" type="image/png" href="/favicon.png"/>
         <link rel="shortcut icon" type="image/jpg" href="favicon.jpg"/>
         <h1>
-            <a href="index.php">
+            <a href="loggedinIndex.php">
                 <img class = "logo" src="logo.jpg" alt="globallogo" width="156" height="35.25">
              </a>
         </h1>
     
         <div class = "navigationbar">
             <ul>
-                <li><a href="men.php">Men</a></li>
-                <li><a href="women.php">Women</a></li>
-                <li><a href="shoppingBag.php">Shopping bag</a></li>
-                <li><a href="login.php">Log in</a></li>
+                <li><a href="loggedinMen.php">Men</a></li>
+                <li><a href="loggedinWomen.php">Women</a></li>
+                <li><a href="loggedinShoppingBag.php">Shopping bag</a></li>
+                <li><a href="logout.php">Log out</a></li>
             </ul>
         </div>
     </header>

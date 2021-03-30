@@ -1,21 +1,25 @@
 <!--Jerry Liu-->
-<!--men.html-->
+<!--loggedinWomen.php-->
 <html>   
+<?php
+        session_start();
+        
+    ?>
+    
     <link rel="stylesheet" href="mystyle.css">
     <header class = "headglobal">
-      <link rel="icon" type="image/ico" href="/favicon.ico"/>
         <h1>
-            <a href="index.html">
+            <a href="loggedinIndex.php">
                 <img class = "logo" src="logo.jpg" alt="globallogo" width="156" height="35.25">
              </a>
         </h1>
     
         <div class = "navigationbar">
             <ul>
-                <li><a href="men.html">Men</a></li>
-                <li><a href="women.html">Women</a></li>
-                <li><a href="shoppingBag.html">Shopping bag</a></li>
-                <li><a href="login.php">Log in</a></li>
+            <li><a href="loggedinMen.php">Men</a></li>
+                <li><a href="loggedinWomen.php">Women</a></li>
+                <li><a href="loggedinShoppingBag.php">Shopping bag</a></li>
+                <li><a href="logout.php">Log out</a></li>
             </ul>
         </div>
     </header>
@@ -27,40 +31,40 @@
             <a href="#More">More</a>
           </div>
         
-        <div class="menmain">
+        <div class="womenmain">
             <div class="pics">
                 <a href="#product.01.html">
-                  <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e8598f79-e2eb-4f3d-8dc2-cf74d52d3245/air-jordan-1-zoom-cmfrt-x-paris-saint-germain-mens-shoe-HsTmZx.jpg" 
+                  <img src="AJ6.jpg" 
                  width="350" height="350">
                 </a>
-                <div class="desc">AJ1</div>
+                <div class="desc">AJ6</div>
               </div>
               
               <div class="pics">
                 <a href="#product.02.html">
-                  <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/752efdf6-b2b7-47fc-b137-5a70b5dd9423/air-force-1-07-mens-shoe-L3SMQl.jpg"  
+                  <img src="Ryz 365 2.jpg"  
                   width="350" height="350">
                 </a>
-                <div class="desc">AF1</div>
+                <div class="desc">Ryz 365 2</div>
               </div>
               
               <div class="pics">
                 <a href="#product.03.html">
-                  <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/07a87f7c-7ef0-46f1-aa95-1382f83d2ed4/blazer-mid-77-vintage-mens-shoe-Thlc5F.jpg"
+                  <img src="shadow SE.jpg"
                     width="350" height="350">
                 </a>
-                <div class="desc">Nike Blazer</div>
+                <div class="desc">shadow SE</div>
               </div>
               
               <div class="pics">
                 <a href="#product.04.html">
-                  <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4f37fca8-6bce-43e7-ad07-f57ae3c13142/air-force-1-07-mens-shoe-5QFp5Z.jpg"
+                  <img src="Nike Victori one.jpg"
                     width="350" height="350">
                 </a>
-                <div class="desc">AF1 white</div>
-
+                <div class="desc">Nike Victori one</div>
 
                 
+              
                 
         </div>
         

@@ -1,16 +1,12 @@
 <!--Jerry Liu-->
-<!--index.php-->
+<!--shoppingbag.php-->
 <html>   
 <?php
         session_start();
         
     ?>
-    
     <link rel="stylesheet" href="mystyle.css">
     <header class = "headglobal">
-        <!--tried everything but favicon does seem to work-->
-        <link rel="icon" type="image/png" href="/favicon.png"/>
-        <link rel="shortcut icon" type="image/jpg" href="favicon.jpg"/>
         <h1>
             <a href="index.php">
                 <img class = "logo" src="logo.jpg" alt="globallogo" width="156" height="35.25">
@@ -28,15 +24,14 @@
     </header>
         
     <body>
-        
-        <p class="textAd">
-            Something new is here
-        </p>
-        <div class="trending">
-            <img src="offwhitecover.jpg" class="center">
-            <img src="clotcoverN.jpg" class="center"> 
-            <img src="SI cover.jpg" class="center"> 
+        <div class = "shoppingBag">
+            <p>Shopping bag</p>
+            <p>YOU NEED TO LOG IN FIRST!</p>
+            <a href="login.php" class="button">Log in</a>
+
         </div>
+        
+    
         
 <!--footer-->  
         <footer class="footer">

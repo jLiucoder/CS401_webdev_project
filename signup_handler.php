@@ -5,7 +5,7 @@ session_start();
 require_once 'KLogger.php';
 $logger = new KLogger ( "log.txt" , KLogger::ERROR );
 
- 
+
 
 $username = $_POST['username'];
 $email = $_POST['email'];
@@ -48,7 +48,7 @@ if(empty($errors)){
 require_once 'Dao.php';
   $dao = new Dao();
   $dao->insertUser($_POST['username'], $_POST['email'], $_POST['password']);
-  header('Location: index.html');
+  header('Location: loggedinIndex.php');
   exit;
  }else{
     $_SESSION['errors'] = $errors;
