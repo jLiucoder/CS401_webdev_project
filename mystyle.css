@@ -1,0 +1,211 @@
+
+/*index.html*/
+h1 {
+    margin-top:20;
+    margin-bottom:20;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+    text-decoration: none;
+}
+
+.logo{
+    height: 5%;
+    width:  auto;
+    
+}
+
+ul {
+    list-style-type:none;
+    margin-top: 20;
+    margin-bottom:20;
+    padding: 0;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    font-size: 15;
+    
+}
+
+a { 
+    color:rgb(5, 5, 5);
+    padding: 30px;
+    text-decoration:none;
+}
+
+a:hover, a:focus {
+    text-decoration:underline;
+}
+li {
+    display: inline;
+}
+
+.trending{
+    
+    color:white;
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.textAd{
+    font-style: Bold;
+    color:rgb(129, 112, 112);
+    font-size:20px;
+    text-align: center;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.footer {
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* men.html*/
+  
+.sidenav {
+    margin-top: 130px;
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-style: bold;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    display: block;
+}
+  
+.sidenav a:hover {
+    text-decoration:underline;
+}
+  
+.menmain {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+.womenmain{
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+div.pics {
+    margin: 5px;
+    padding: 30px;
+    border:1px;
+    float: left;
+    width: 180px;
+}
+  
+div.pics:hover {
+    border:0px;
+}
+  
+div.pics img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/*shopping bag*/
+
+.shoppingBag{
+    color: #b3b3b3;
+}
+.shoppingBag p{
+    margin: top 20px;
+    padding-top: 20px;
+    text-align: center;
+    font: size 60px;
+    font-weight: bold;
+    color: black;
+}
+
+.button{
+    appearance: button;
+    margin: auto;
+    color: initial;
+    text-align: center;
+    margin: auto;
+}
+
+/*log in */
+/*sign up*/
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+ 
+  button {
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+
+  
+
+  .container {
+    padding: 16px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    
+  }
+
