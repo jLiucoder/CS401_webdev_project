@@ -80,27 +80,6 @@ class Dao
     }
   }
 
-  // public function insertUser($username, $email, $password){
-	// 	$connection = $this->getConnection();
-
-	// 	$query = "INSERT INTO usr (username, email, passwd) VALUES (:username, :email, :passwd)";
-	
-	// 	$statement = $connection->prepare($query);
-
-
-	// 	$statement->bindParam(":username", $username);
-	// 	$statement->bindParam(":email", $email);
-	// 	$statement->bindParam(":passwd", $password);
-		
-
-	// 	try{
-  //     $statement->execute();
-  //     return true;
-  // }catch(Exception $e){
-  //     echo print_r($e,1);
-  //     exit;
-  // }
-	// }
 
   public function insertUser ($username, $email, $password) {
     $conn = $this->getConnection();
