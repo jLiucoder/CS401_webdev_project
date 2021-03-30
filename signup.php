@@ -10,7 +10,7 @@ if (isset($_SESSION['authenticated'])) {
         header('Location: home.php');
         exit;
     }
-}
+} 
 
 //grab errors object
 if (isset($_SESSION['errors'])) {

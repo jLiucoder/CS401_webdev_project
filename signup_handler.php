@@ -5,7 +5,7 @@ session_start();
 require_once 'KLogger.php';
 $logger = new KLogger ( "log.txt" , KLogger::ERROR );
 
-
+ 
 
 $username = $_POST['username'];
 $email = $_POST['email'];

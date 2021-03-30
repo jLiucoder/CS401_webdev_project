@@ -12,7 +12,7 @@
         } 
     }
     ?>
-
+ 
 
     <link rel="stylesheet" href="mystyle.css">
     <header class = "headglobal">
